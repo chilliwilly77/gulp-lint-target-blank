@@ -4,7 +4,7 @@
   "description": "gulpified linkt for target blank vulnrability",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/chilliwilly77/gulp-lint-target-blank#readme",
   "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
     "gulp": "^3.9.1"
   },
   "peerDependencies": {
