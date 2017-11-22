@@ -1,0 +1,38 @@
+{
+  "name": "gulp-lint-target-blank",
+  "version": "0.0.1",
+  "description": "gulpified linkt for target blank vulnrability",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chilliwilly77/gulp-lint-target-blank.git"
+  },
+  "keywords": [
+    "gulp",
+    "lint",
+    "target",
+    "_blank",
+    "noopener",
+    "noreferrer",
+    "html"
+  ],
+  "author": "williamlacy2@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chilliwilly77/gulp-lint-target-blank/issues"
+  },
+  "homepage": "https://github.com/chilliwilly77/gulp-lint-target-blank#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "peerDependencies": {
+    "gulp": ">=3"
+  },
+  "dependencies": {
+    "lint-target-blank": "0.0.1",
+    "map-stream": "0.0.7"
+  }
+}
